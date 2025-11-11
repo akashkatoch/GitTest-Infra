@@ -21,7 +21,7 @@ spec:
             - "https://token.actions.githubusercontent.com"
             - "--certificate-identity-regexp"
             - "https://github.com/UnpredictablePrashant/GitOpsDemoA/.+"
-            - docker.io/prashantdey/gitops-demo-app@sha256:a8e9dd24f19364ae772b14347afb9638c99a6954b243d2a4a34ac2758890af1b
+            - docker.io/akashkatoch737/dockerhub-repo@sha256:a016c855b36d1ad7f52fce7f4729e3ff024b9ba6ee546bcf2550a2fbef884bd3
           env:
             - name: COSIGN_EXPERIMENTAL
               value: "true"
