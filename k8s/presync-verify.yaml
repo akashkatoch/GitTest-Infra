@@ -21,6 +21,7 @@ spec:
             - "https://token.actions.githubusercontent.com"
             - "--certificate-identity-regexp"
             - "https://github.com/UnpredictablePrashant/GitOpsDemoA/.+"
+
             - "__IMAGE_REF__"
           env:
             - name: COSIGN_EXPERIMENTAL
